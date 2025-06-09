@@ -2,7 +2,7 @@
 export default async function handler(req, res) {
   const { message } = req.body;
 
-  const apiKey = "sk-xxxxxxx"; // 🔐 Replace with your actual OpenAI API key
+  const apiKey = "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"; // 🔐 Replace with your actual OpenAI API key
 
   const openaiResponse = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
